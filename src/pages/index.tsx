@@ -1,7 +1,8 @@
-// import Head from 'next/head'
+
 
 import Head from "next/head";
 import { GetServerSideProps } from "next";
+import styles from '../styles/pages/Home.module.css'
 
 import { ChallengeBox } from "../components/ChallengeBox";
 import { CompletedChallenges } from "../components/CompletedChallenges";
@@ -14,6 +15,8 @@ import { ChallangeProvider } from "../contexts/ChallengesContext";
 import React, { useContext } from "react";
 import { Button } from "../components/Button";
 import { MenuBar } from "../components/MenuBar";
+
+
 
 interface HomeProps {
   level: number;
