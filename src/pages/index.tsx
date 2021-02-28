@@ -25,7 +25,7 @@ export default function Home(props: HomeProps) {
   return (
     <>
       <Head>
-        <title>Início | pomo[A]doro</title>
+        <title>Início | Movendo-Se</title>
       </Head>
       <ChallangeProvider
         level={props.level}
