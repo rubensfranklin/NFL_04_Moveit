@@ -13,12 +13,12 @@ export function Profile() {
     <div className="grid items-center grid-rows-1 gap-4 mt-12 grid-cols-profile sm:mt-0">
       <img
         className="w-20 h-20 rounded-full"
-        src="https://github.com/edsonluiz.png"
+        src="https://github.com/rubensfranklin.png"
         alt="imagem que representa o usuário logado"
       />
       <div className="ml-6">
         <strong className="text-xl font-semibold sm:text-2xl font-inter dark:text-white text-blueGray-700">
-          Edson Luiz 
+          Rubens Franklin
         </strong>
         <p className="flex mt-2 text-base font-normal font-inter dark:text-gray-100 text-warmGray-500">
           <img
